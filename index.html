@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="app">
+        <div class="date">
+        <h1>Среда</h1>
+        <p>3 сентября</p>
+    </div>
+        <div class="searchBar">
+            <input type="text" placeholder="Поиск">
+            <span class="search-icon"><img src="assets/icons/state-layer.png"></span>
+        </div>
+        <div class="filters">
+            <button class="btnFilterAll active"> Все </button>
+            <button class="btnFilterActive">Активные</button>
+            <button class="btnFilterFinish">Завершенные</button>
+        </div>
+        <div class="task-list">
+            <div class="task done">
+                <input type="checkbox" checked>
+                <div class="task-info">
+                    <span class="task-time">10 января, 11:30</span>
+                    <span class="task-text done">Покормить кошку</span>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox">
+                <div class="task-info">
+                    <span class="task-time">10 января, 11:30</span>
+                    <span class="task-text">Покормить кошку</span>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox">
+                <div class="task-info">
+                    <span class="task-time">10 января, 11:30</span>
+                    <span class="task-text">Покормить кошку</span>
+                </div>
+            </div>
+            <div class="task">
+                <input type="checkbox">
+                <div class="task-info">
+                    <span class="task-time">10 января, 11:30</span>
+                    <span class="task-text">Покормить кошку</span>
+                </div>
+            </div>
+        </div>
+        <button class="btnEdit"><img src="assets/icons/icon.svg"></button>
+    </div>
 
 <script src="script.js/script.js"></script>
 </body>
