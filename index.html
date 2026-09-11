@@ -26,28 +26,28 @@
         </div>
         <div class="task-list">
             <div class="task done">
-                <input type="checkbox" checked>
+                <input type="checkbox" checked class="task-checkbox">
                 <div class="task-info">
                     <span class="task-time">10 января, 11:30</span>
                     <span class="task-text done">Покормить кошку</span>
                 </div>
             </div>
             <div class="task">
-                <input type="checkbox">
+                <input type="checkbox" class="task-checkbox">
                 <div class="task-info">
                     <span class="task-time">10 января, 11:30</span>
                     <span class="task-text">Покормить кошку</span>
                 </div>
             </div>
             <div class="task">
-                <input type="checkbox">
+                <input type="checkbox" class="task-checkbox">
                 <div class="task-info">
                     <span class="task-time">10 января, 11:30</span>
                     <span class="task-text">Покормить кошку</span>
                 </div>
             </div>
             <div class="task">
-                <input type="checkbox">
+                <input type="checkbox" class="task-checkbox">
                 <div class="task-info">
                     <span class="task-time">10 января, 11:30</span>
                     <span class="task-text">Покормить кошку</span>
@@ -55,7 +55,22 @@
             </div>
         </div>
         <button class="btnEdit"><img src="assets/icons/icon.svg"></button>
+    <div class="modal-background">
+        <div class="modal-content">
+        <div class="modal-handle"></div>
+            <input type="text" placeholder="Описание">
+            <input type="text" placeholder="дата">
+        <div class="modal-toggle">
+            <span>Напомнить мне</span>
+            <input type="checkbox" class="toggle-input">
+        </div>
+        <div class="modal-buttons">
+            <button class="btnAdd">Добавить</button>
+            <button class="btnCancel">Отмена</button>
+            </div>
+        </div>
     </div>
+</div>
 
 <script src="script.js/script.js"></script>
 </body>
